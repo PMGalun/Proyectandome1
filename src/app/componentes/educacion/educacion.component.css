@@ -1,0 +1,41 @@
+.row{
+    padding: 15px;
+    }
+    div{
+        background-color:rgb(182, 201, 229);
+    }
+
+    h1 {
+        display: inline;
+        font-size: xxx-large;
+        font-style: italic;
+        text-align: center;}
+
+        h2 {
+            display: inline;
+            font-size: xx-large;
+            font-style: italic;
+            text-align: center;}
+
+    h3{
+        display: inline;
+        font-size:large;
+        font-style: italic;
+        
+}
+
+#Nutricion{
+    width: 3%;
+   height: 30px;
+
+}      
+#EF{
+   width: 3%;
+  height: 30px;
+
+}     
+#APloui{
+   width: 3%;
+  height: 30px;
+
+}       

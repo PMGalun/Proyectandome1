@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.redessociales{
+    margin-right: 0.5em;
+}
+#logoApp{
+      width: 100%;
+      height: 1000px;}
+
+img{
+    width: 50px;
+   }
+
+
+.btn{
+    border-width: medium;
+}
+/**--Para la vista del celular--**/
+@media(max-width;575px){
+.container{
+    flex-direction: column;
+}
+
+.redessociales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.redessociales{
+    margin: 0.5px
+}
+}
+   
+
