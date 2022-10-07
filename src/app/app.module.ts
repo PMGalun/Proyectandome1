@@ -13,22 +13,23 @@ import { HyHComponent } from './componentes/hy-h/hy-h.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { HttpClientModule} from '@angular/common/http';
-
-
+import { HomeComponent } from './componentes/home/home.component';
+import { LoginComponent } from './componentes/login/login.component';
 @NgModule({
   declarations: [
-    AppComponent,
-    HeaderComponent,
-    LogoAPComponent,
-    BannerComponent,
-    AcercaDeComponent,
-    ExperienciaComponent,
-    EducacionComponent,
-    FooterComponent,
-    HyHComponent,
-    ProyectosComponent,
+  AppComponent,
+  HeaderComponent,
+  LogoAPComponent,
+  BannerComponent,
+  AcercaDeComponent,
+  ExperienciaComponent,
+  EducacionComponent,
+  FooterComponent,
+  HyHComponent,
+  ProyectosComponent,
+  HomeComponent,
+  LoginComponent,
    
-
   ],
   imports: [
     BrowserModule,
@@ -37,6 +38,7 @@ import { HttpClientModule} from '@angular/common/http';
     HttpClientModule
    
   ],
+ 
   providers: [],
   bootstrap: [AppComponent]
 })

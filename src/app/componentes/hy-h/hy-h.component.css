@@ -1,22 +1,12 @@
-.row{
-background-color:rgb(182, 201, 229);
-padding: 10px;
-}
-
+div{
+    background-color:rgb(14, 73, 136);
+    border-radius:50px;
+   }
 h1 {
-    display: inline;
-    font-size: xxx-large;
+    color: rgb(25, 143, 143);
+    inline-size: 100%;
+    display: flex-block;
+    font-size: xx-large;
     font-style: italic;
     text-align: center;
-
-    }
-    h2 {
-        display: inline;
-        font-size: xx-large;
-        font-style: italic;
-        text-align: center;}
-
-    h3{
-        display: inline;
-        font-size: large;
-        font-style: italic;}
+ }     

@@ -1,57 +1,56 @@
-.row{
-    padding: 20px;
-   }
+div{
+  background-color:rgb(14, 73, 136);
+  border-radius:50px;
+ }
+  
+ img {
+  width:100px; 
+  height: 150px;
+  display:center;
+  box-shadow: 10px 10px 7px  rgb(54, 5, 228);
+  padding: 10px;
+  border-radius: 30px;
+  background-color:rgb(51, 0, 255);
+  padding:auto;
+  border: 5px rgb(38, 78, 171);
+ }
 
-   div{
-    background-color:rgb(182, 201, 229);
-    text-align: center;
-   }
+ p {
+  font-size:medium;
+  color: #fefefe;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  margin:auto;
+  display:inline-block;
+  text-align:center;
+ } 
+ 
+        
+ h1 {
+  inline-size: 100%;
+  display: flex-block;
+  font-size: xx-large;
+  font-style: italic;
+  text-align: center;
+  color: rgb(25, 143, 143);
+   
+ }       
 
-   /**nombre**/
-   #nombre{
-       font-weight: bold;
-       margin-top: 30px;
-       }
 
-    /**foto de perfil**/
 
-    @media (min-width:576px){
-        #mifoto{
 
-    position: absolute;
-    width: 15%;
-    border-radius: 100%;
-    box-shadow: 3px 3px 3px blue;
-    left: 3%;
-    top: 340px;
-    }
-    }
-    @media (max-width:575px){
-        #mifoto{   
-    position: absolute;
-    width: 30%;
-    border-radius: 100%;
-    box-shadow: 3px 3px 3px blue;
-    left: 33%;
-    top: 500px;
-    }
-    }
+.row {
+  padding: 30px;
+  background-color:rgb(14, 73, 136);
+  text-align: center;
+}
 
-h1 {
-    display: inline;
-    font-size: xxx-large;
-    font-style:italic;
-    text-align: center;
 
-    }
-    h2 {
-        display: inline;
-        font-size: xx-large;
-        font-style: italic;
-        text-align: center;}
+/*etiqueta nombre*/
+#nombre {
+  font-weight: bold;
+  margin-top: 30%;
+  color: #093361;
+  text-align: center;
 
-    h3{
-        display: inline;
-        font-size: large;
-        font-style: italic;
-    }
+}

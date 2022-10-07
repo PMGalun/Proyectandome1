@@ -2,38 +2,56 @@
     padding: 15px;
     }
     div{
-        background-color:rgb(182, 201, 229);
-    }
+        background-color:rgb(14, 73, 136);
+        border-radius:50px;
+    
+       }
 
     h1 {
-        display: inline;
-        font-size: xxx-large;
+        display: flex-block;
+        font-size: xx-large;
         font-style: italic;
-        text-align: center;
+        text-align: center;}
 
-        }
         h2 {
             display: inline;
             font-size: xx-large;
             font-style: italic;
-            text-align: center;}
+            text-align: center;
+        color: #fefefe;}
 
-        h3{
-            display: inline;
-            font-size: large;
-            font-style: italic;}
-     #aegis{
-         width: 3%;
-        height: 30px;
+    h3{
+        display: inline;
+        font-size:large;
+        font-style: italic;
+        color:#fefefe
+        
+}
 
-     }      
-     #atento{
-        width: 3%;
-       height: 30px;
+p{
+    color: blanchedalmond;
+}
 
-    }     
-    #nutricion{
-        width: 3%;
-       height: 30px;
+#Aegis{
+    width: 3%;
+   height: 30px;
 
-    }       
+}      
+#Atento{
+   width: 3%;
+  height: 30px;
+
+}     
+#APloui{
+   width: 3%;
+  height: 30px;
+
+}    
+h1 {
+    color: rgb(25, 143, 143);
+    inline-size: 100%;
+    display: flex-block;
+    font-size: xx-large;
+    font-style: italic;
+    text-align: center;
+ }        
